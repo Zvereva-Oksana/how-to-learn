@@ -14,7 +14,6 @@
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
-  border: 2px solid #d2d2d2;
 }
 
 .header {
@@ -25,7 +24,6 @@
   background-color: #f2f2f2;
   display: flex;
   margin: 0;
-  border-bottom: 1px solid #d2d2d2;
   /* выше установили ограничения для секции */
 }
 
@@ -95,8 +93,6 @@
   display: flex;
   justify-content: center;
   margin-top: 100px;
-  border-top: 1px solid #d2d2d2;
-  border-bottom: 1px solid #d2d2d2;
 }
 
 .two-columns {
@@ -142,8 +138,6 @@
   align-items: center;
   margin-top: 100px;
   margin-bottom: 100px;
-  border-top: 1px solid #d2d2d2;
-  border-bottom: 1px solid #d2d2d2;
 }
 
 .section-title {
@@ -190,7 +184,6 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-  padding-bottom: 3px;
 }
 
 .feynman {
@@ -200,7 +193,6 @@
   align-items: center;
   height: 890px;
   background-color: #f2f2f2;
-  border-top: 1px solid #d2d2d2;
 }
 
 .feynman__title {
@@ -253,8 +245,6 @@
   padding-top: 90px;
   padding-bottom: 90px;
   overflow: hidden;
-  border-bottom: 1px solid #d2d2d2;
-  border-top: 1px solid #d2d2d2;
 }
 
 .kaufman:after {
@@ -265,8 +255,6 @@
   left: 0;
   right: 0;
   bottom: 90px;
-  border-bottom: 1px solid #d2d2d2;
-  border-top: 1px solid #d2d2d2;
 }
 
 .section-title_theme_dark {
@@ -321,8 +309,6 @@
   left: 0;
   right: 0;
   bottom: 40px;
-  border-bottom: 1px solid #d2d2d2;
-  border-top: 1px solid #d2d2d2;
 }
 
 .footer__columns {
@@ -349,14 +335,7 @@
   font-size: 18px;
   font-weight: normal;
   color: white;
-}
-
-.footer__author:before {
-  padding-top: 18px;
-}
-
-.footer__author:after {
-  padding-bottom: 18px;
+  padding: 18px 0;
 }
 
 .footer__columns_content_info {
