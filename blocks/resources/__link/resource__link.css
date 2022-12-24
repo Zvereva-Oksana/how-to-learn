@@ -1,0 +1,12 @@
+.resource__link {
+  width: 270px;
+  height: 38px;
+  margin-bottom: 217px;
+  text-align: center;
+}
+
+.resource__link:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  transition: opacity 1s linear;
+}

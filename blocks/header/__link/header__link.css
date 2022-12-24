@@ -1,0 +1,15 @@
+.header__link {
+  color: #2f80ed;
+  text-decoration: none;
+  opacity: 1;
+}
+
+.header__link::after {
+  content: " →";
+}
+
+.header__link:hover {
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+  transition: opacity 1s linear;
+}
